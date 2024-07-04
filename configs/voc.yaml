@@ -1,0 +1,33 @@
+overlap: True
+random_seed: 1
+curr_step: 1
+task: 15-1
+gpu_ids: [0, 1]
+ckpt: None
+amp: True
+
+train:
+  MBS: True
+  weight_transfer: True 
+  distill_args: 25
+  backbone: vit_b_16 # mit_b2 or vit_b_16
+  train_epochs: 32
+  log_iters: 50
+  crop_val: True
+  loss_type: 'ce_loss'
+  pseudo_thresh: 0.7
+  
+dataset:
+  name: voc
+  data_root: /dataset/VOC2012
+  crop_size: 512
+  resize_range: [512, 2048]
+  rescale_range: [0.5, 2.0]
+  ignore_index: 255
+  batch_size: 8
+  val_batch_size: 4
+
+optimizer:
+  learning_rate: 0.001
+  inc_lr: 0.1
+  weight_decay: 1e-5

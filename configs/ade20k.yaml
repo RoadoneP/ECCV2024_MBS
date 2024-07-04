@@ -1,0 +1,33 @@
+overlap: True
+random_seed: 1
+curr_step: 0
+task: 100-50
+gpu_ids: [0, 1, 2, 3]
+ckpt: None
+amp: True
+
+train:
+  MBS: True
+  weight_transfer: True 
+  distill_args: 50
+  backbone: vit_b_16 # mit_b2 or vit_b_16
+  train_epochs: 64
+  log_iters: 500
+  crop_val: True
+  loss_type: 'ce_loss'
+  pseudo_thresh: 0.7
+  
+dataset:
+  name: ade
+  data_root: dataset/ADEChallengeData2016
+  crop_size: 512
+  resize_range: [512, 2048]
+  rescale_range: [0.5, 2.0]
+  ignore_index: 255
+  batch_size: 8
+  val_batch_size: 4
+
+optimizer:
+  learning_rate: 0.001
+  inc_lr: 0.5
+  weight_decay: 1e-5

@@ -1,0 +1,9 @@
+runs
+checkpoints*
+**/__pycache__/
+/datasets/data/voc/memory.json
+*.log
+logs
+
+
+

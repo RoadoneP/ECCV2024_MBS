@@ -1,0 +1,11 @@
+imageio
+omegaconf
+timm==0.6.12
+Pillow==8.3.1
+tensorboard
+torchsummary
+einops
+gluoncv
+scikit-learn
+setuptools==59.5.0
+
