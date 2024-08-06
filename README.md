@@ -113,4 +113,4 @@ If you find the repository or the paper useful, please use the following entry f
 ````
 
 ## Contributors and Contact
-If there are any questions, feel free to contact the authors: Gilhan Park (a01152a@gmail.com), WonJun Moon (wjun0830@gmail.com), SuBeen Lee (leesb7426@gmail.com), Tae-Young Kim (vanmeruso@gmail.com).
+If there are any questions, feel free to contact the authors: Gilhan Park (a01152a@gmail.com).
