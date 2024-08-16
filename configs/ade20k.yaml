@@ -2,7 +2,7 @@ overlap: True
 random_seed: 1
 curr_step: 0
 task: 100-50
-gpu_ids: [0, 1, 2, 3]
+gpu_ids: [0, 1]
 ckpt: None
 amp: True
 
@@ -19,7 +19,7 @@ train:
   
 dataset:
   name: ade
-  data_root: dataset/ADEChallengeData2016
+  data_root: /dataset/ADEChallengeData2016
   crop_size: 512
   resize_range: [512, 2048]
   rescale_range: [0.5, 2.0]

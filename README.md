@@ -3,12 +3,25 @@
 > Gilhan Park, WonJun Moon, SuBeen Lee, Tae-Young Kim, and Jae-Pil Heo <br>
 > Sungkyunkwan University
 
-[![Paper](https://img.shields.io/badge/arXiv--brightgreen)](https://arxiv.org/abs/)
+[![Paper](https://img.shields.io/badge/arXiv-2407.11859-brightgreen)](https://arxiv.org/abs/2407.11859)
+[![Conference](https://img.shields.io/badge/ECCV-2024-blue)](https://eccv2024.ecva.net/)<br>
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/overlapped-100-10-on-ade20k)](https://paperswithcode.com/sota/overlapped-100-10-on-ade20k?p=mitigating-background-shift-in-class)
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/overlapped-100-50-on-ade20k)](https://paperswithcode.com/sota/overlapped-100-50-on-ade20k?p=mitigating-background-shift-in-class)<br>
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/overlapped-100-5-on-ade20k)](https://paperswithcode.com/sota/overlapped-100-5-on-ade20k?p=mitigating-background-shift-in-class)
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/overlapped-50-50-on-ade20k)](https://paperswithcode.com/sota/overlapped-50-50-on-ade20k?p=mitigating-background-shift-in-class)<br>
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/overlapped-10-1-on-pascal-voc-2012)](https://paperswithcode.com/sota/overlapped-10-1-on-pascal-voc-2012?p=mitigating-background-shift-in-class)
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/disjoint-15-5-on-pascal-voc-2012)](https://paperswithcode.com/sota/disjoint-15-5-on-pascal-voc-2012?p=mitigating-background-shift-in-class)<br>
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/overlapped-5-3-on-pascal-voc-2012)](https://paperswithcode.com/sota/overlapped-5-3-on-pascal-voc-2012?p=mitigating-background-shift-in-class)
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/disjoint-19-1-on-pascal-voc-2012)](https://paperswithcode.com/sota/disjoint-19-1-on-pascal-voc-2012?p=mitigating-background-shift-in-class)<br>
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/overlapped-19-1-on-pascal-voc-2012)](https://paperswithcode.com/sota/overlapped-19-1-on-pascal-voc-2012?p=mitigating-background-shift-in-class)
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/overlapped-15-5-on-pascal-voc-2012)](https://paperswithcode.com/sota/overlapped-15-5-on-pascal-voc-2012?p=mitigating-background-shift-in-class)<br>
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/overlapped-15-1-on-pascal-voc-2012)](https://paperswithcode.com/sota/overlapped-15-1-on-pascal-voc-2012?p=mitigating-background-shift-in-class)
+🥇[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mitigating-background-shift-in-class/disjoint-15-1-on-pascal-voc-2012)](https://paperswithcode.com/sota/disjoint-15-1-on-pascal-voc-2012?p=mitigating-background-shift-in-class)
 
 ![main_figure](./fig/Main_Figure.png)
 
 ## Updates & News
-- Our new paper, "Mitigating Background Shift in Class-Incremental Semantic Segmentation" will soon be posted on Arxiv. The title and code are currently available.
+- Our new paper, "Mitigating Background Shift in Class-Incremental Semantic Segmentation" be posted on Arxiv!!!! The title and code are currently available.
 - Our paper has been accepted at **ECCV 2024**.
 
 ## Abtract
@@ -91,8 +104,13 @@ python -m torch.distributed.launch --nproc_per_node={num_gpu} --master_port={por
 ## BibTex
 If you find the repository or the paper useful, please use the following entry for citation.
 ````BibTeX
-coming soon
+@article{park2024mitigating,
+  title={Mitigating Background Shift in Class-Incremental Semantic Segmentation},
+  author={Park, Gilhan and Moon, WonJun and Lee, SuBeen and Kim, Tae-Young and Heo, Jae-Pil},
+  journal={arXiv preprint arXiv:2407.11859},
+  year={2024}
+}
 ````
 
 ## Contributors and Contact
-If there are any questions, feel free to contact the authors: Gilhan Park (a01152a@gmail.com), WonJun Moon (wjun0830@gmail.com), SuBeen Lee (leesb7426@gmail.com), Tae-Young Kim (vanmeruso@gmail.com).
+If there are any questions, feel free to contact the authors: Gilhan Park (a01152a@gmail.com).

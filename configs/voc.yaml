@@ -1,6 +1,6 @@
 overlap: True
 random_seed: 1
-curr_step: 1
+curr_step: 0
 task: 15-1
 gpu_ids: [0, 1]
 ckpt: None
@@ -24,7 +24,7 @@ dataset:
   resize_range: [512, 2048]
   rescale_range: [0.5, 2.0]
   ignore_index: 255
-  batch_size: 8
+  batch_size: 16
   val_batch_size: 4
 
 optimizer:
